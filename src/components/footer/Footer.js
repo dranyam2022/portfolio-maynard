@@ -18,10 +18,10 @@ function Footer() {
             </ul>
 
             <div className='footer__socials'>
-                <a href='https://www.facebook.com/maynard.escalante/' target='_blank'><FaFacebookF /></a>
-                <a href='https://instagram.com' target='_blank'><FaInstagram /></a>
-                <a href='https://twitter.com/escalantenard' target='_blank'><FaTwitter /></a>
-                <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank'><FaLinkedinIn /></a>
+                <a href='https://www.facebook.com/maynard.escalante/' target='_blank' rel='me'><FaFacebookF /></a>
+                <a href='https://instagram.com' target='_blank' rel='me'><FaInstagram /></a>
+                <a href='https://twitter.com/escalantenard' target='_blank' rel='me'><FaTwitter /></a>
+                <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' rel='me'><FaLinkedinIn /></a>
             </div>
 
             <div className='footer__copyright'>

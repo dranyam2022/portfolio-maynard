@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import './Portfolio.css'
 import IMG1 from '../../assets/expense_tracker.png'
 
@@ -19,7 +19,6 @@ function Portfolio() {
             title: 'Expense Tracker',
             gitlab: 'https://gitlab.com/dranyam123/expense-tracker',
             demo: 'https://expense-tracker-phi-mauve.vercel.app/',
-            demo: 'https://expense-tracker-phi-mauve.vercel.app/',
             description: 'This project started as a Udemy course. Using the things I learned from the course, I enhanced and completed it.'
         },
         {
@@ -27,7 +26,6 @@ function Portfolio() {
             image: IMG1,
             title: 'Expense Tracker',
             gitlab: 'https://gitlab.com/dranyam123/expense-tracker',
-            demo: 'https://expense-tracker-phi-mauve.vercel.app/',
             demo: 'https://expense-tracker-phi-mauve.vercel.app/',
             description: 'This project started as a Udemy course. Using the things I learned from the course, I enhanced and completed it.'
         },
@@ -58,13 +56,13 @@ function Portfolio() {
 
                             <article className='portfolio__item' key={id}>
                                 <div className='portfolio__item-image'>
-                                    <img src={image}></img>
+                                    <img src={image} alt={title}></img>
                                 </div>
                                 <h3>{title}</h3>
                                 <p>{description}</p>
                                 <div className='portfolio__item-cta'>
-                                    <a href={gitlab} className='btn' target='_blank'>Gitlab</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                    <a href={gitlab} className='btn' target='_blank' rel='me'>Gitlab</a>
+                                    <a href={demo} className='btn btn-primary' target='_blank' rel='me'>Live Demo</a>
                                 </div>
                             </article>
                         )

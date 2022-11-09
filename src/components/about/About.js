@@ -20,7 +20,7 @@ function About() {
 
                 <div className='about__content'>
                     <div className='about__cards'>
-                        <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' className='about__card'>                            <FaAward className='about__icon' />
+                        <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' rel='me' className='about__card'>                            <FaAward className='about__icon' />
                             <h5>Experience</h5>
                             <small>Web Development and TechSupport</small>
                         </a>
