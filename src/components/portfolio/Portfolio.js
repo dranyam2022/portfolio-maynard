@@ -37,18 +37,6 @@ function Portfolio() {
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
 
-            {/* <div className='container portfolio__container'>
-                <article className='portfolio__item'>
-                    <div className='portfolio__item-image'>
-                        <img src={IMG1}></img>
-                    </div>
-                    <h3>This is a portfolio item title</h3>
-                    <div className='portfolio__item-cta'>
-                        <a href='https://gitlab.com' className='btn' target='_blank'>Gitlab</a>
-                        <a href='https://dribble.com/Alien_pixels' className='btn btn-primary' target='_blank'>Live Demo</a>
-                    </div>
-                </article>
-            </div> */}
             <div className='container portfolio__container'>
                 {
                     data.map(({ id, image, title, gitlab, demo, description }) => {
