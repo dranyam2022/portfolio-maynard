@@ -20,29 +20,24 @@ function About() {
 
                 <div className='about__content'>
                     <div className='about__cards'>
-                        <article className='about__card'>
-                            <FaAward className='about__icon' />
+                        <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' className='about__card'>                            <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>1 Year Working Experience</small>
-                        </article>
-
-                        <article className='about__card'>
+                            <small>Web Development and TechSupport</small>
+                        </a>
+                        <a className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
-                            <small>200+ International</small>
-                        </article>
-
-                        <article className='about__card'>
+                            <small>none</small>
+                        </a>
+                        <a className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>80+ Completed</small>
-                        </article>
+                            <small>Click to see Completed</small>
+                        </a>
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eaque esse nostrum vero itaque, non
-                        corrupti nisi, nulla sequi blanditiis cupiditate error. Ad deleniti placeat ea voluptatem. Vel, pariatur
-                        perferendis.
+                        I have been a technical support specialist for eight years, looking into making a career in the Web and Software Development industry. I have been teaching myself how to code for more than a year and also completed the Zuitt Coding Bootcamp. As technical support, I love solving problems with minimum supervision. I am currently seeking job opportunities in the Web and Software development field.
                     </p>
 
                     <a href='#contact' className='btn btn-primary'>Let's Talk</a>
