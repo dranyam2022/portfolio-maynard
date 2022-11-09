@@ -29,7 +29,7 @@ function About() {
                             <h5>Clients</h5>
                             <small>none</small>
                         </a>
-                        <a className='about__card'>
+                        <a className='about__card' href='#portfolio'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
                             <small>Click to see Completed</small>

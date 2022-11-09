@@ -11,17 +11,17 @@ function Footer() {
                 <li><a href='#'>Home</a></li>
                 <li><a href='#about'>About</a></li>
                 <li><a href='#experience'>Experience</a></li>
-                <li><a href='#services'>Services</a></li>
+
                 <li><a href='#portfolio'>Portfolio</a></li>
-                <li><a href='#testimonials'>Testimonials</a></li>
+
                 <li><a href='#contact'>Contact</a></li>
             </ul>
 
             <div className='footer__socials'>
-                <a href='https://facebook.com'><FaFacebookF /></a>
-                <a href='https://instagram.com'><FaInstagram /></a>
-                <a href='https://twitter.com'><FaTwitter /></a>
-                <a href='https://linkedin.com'><FaLinkedinIn /></a>
+                <a href='https://www.facebook.com/maynard.escalante/' target='_blank'><FaFacebookF /></a>
+                <a href='https://instagram.com' target='_blank'><FaInstagram /></a>
+                <a href='https://twitter.com/escalantenard' target='_blank'><FaTwitter /></a>
+                <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank'><FaLinkedinIn /></a>
             </div>
 
             <div className='footer__copyright'>
