@@ -14,18 +14,18 @@ function About() {
             <div className={`container ${styles.about__container}`}>
                 <div className={`${styles.about__me}`}>
                     <div className={`${styles['about__me-image']}`}>
-                        <img src={ME} alt="About Image" />
+                        <img src={ME} alt="About" />
                     </div>
                 </div>
 
                 <div className={`${styles.about__content}`}>
                     <div className={`${styles.about__cards}`}>
-                        <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' rel='me' className={`${styles.about__card}`}>
+                        <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' rel='noreferrer' className={`${styles.about__card}`}>
                             <FaAward className={`${styles.about__icon}`} />
                             <h5>Experience</h5>
                             <small>Web Development and TechSupport</small>
                         </a>
-                        <a className={`${styles.about__card}`}>
+                        <a className={`${styles.about__card}`} href='#portfolio'>
                             <FiUsers className={`${styles.about__icon}`} />
                             <h5>Clients</h5>
                             <small>none</small>
