@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import styles from './About.module.css';
 import ME from '../../assets/3426526.jpg';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
@@ -11,26 +11,27 @@ function About() {
             <h5>Get to Know</h5>
             <h2>About Me</h2>
 
-            <div className='container about__container'>
-                <div className='about__me'>
-                    <div className='about__me-image'>
+            <div className={`container ${styles.about__container}`}>
+                <div className={`${styles.about__me}`}>
+                    <div className={`${styles['about__me-image']}`}>
                         <img src={ME} alt="About Image" />
                     </div>
                 </div>
 
-                <div className='about__content'>
-                    <div className='about__cards'>
-                        <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' rel='me' className='about__card'>                            <FaAward className='about__icon' />
+                <div className={`${styles.about__content}`}>
+                    <div className={`${styles.about__cards}`}>
+                        <a href='https://www.linkedin.com/in/maynard-escalante-3033ab1a3/' target='_blank' rel='me' className={`${styles.about__card}`}>
+                            <FaAward className={`${styles.about__icon}`} />
                             <h5>Experience</h5>
                             <small>Web Development and TechSupport</small>
                         </a>
-                        <a className='about__card'>
-                            <FiUsers className='about__icon' />
+                        <a className={`${styles.about__card}`}>
+                            <FiUsers className={`${styles.about__icon}`} />
                             <h5>Clients</h5>
                             <small>none</small>
                         </a>
-                        <a className='about__card' href='#portfolio'>
-                            <VscFolderLibrary className='about__icon' />
+                        <a className={`${styles.about__card}`} href='#portfolio'>
+                            <VscFolderLibrary className={`${styles.about__icon}`} />
                             <h5>Projects</h5>
                             <small>Click to see Completed</small>
                         </a>
