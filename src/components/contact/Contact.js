@@ -4,7 +4,6 @@ import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
-import BackToTopBtn from "../backtotop/BackToTopBtn";
 
 function Contact() {
   const form = useRef();
@@ -92,7 +91,6 @@ function Contact() {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          <BackToTopBtn />
         </form>
       </div>
     </section>
