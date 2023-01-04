@@ -1,6 +1,7 @@
 import "./Portfolio.css";
 import IMG1 from "../../assets/expense_tracker.png";
 import IMG2 from "../../assets/food-order.png";
+import IMG3 from "../../assets/e-commerce-frontend.png";
 
 function Portfolio() {
   const data = [
@@ -24,12 +25,12 @@ function Portfolio() {
     },
     {
       id: 3,
-      image: IMG1,
-      title: "Expense Tracker",
-      gitlab: "https://gitlab.com/dranyam123/expense-tracker",
-      demo: "https://expense-tracker-phi-mauve.vercel.app/",
+      image: IMG3,
+      title: "Ecommerce Website",
+      gitlab: "https://gitlab.com/dranyam123/e-commerce-frontend",
+      demo: "https://e-commerce-frontend-gilt.vercel.app/",
       description:
-        "This project started as a Udemy course. Using the things I learned from the course, I enhanced and completed it.",
+        "Original project and passed as capstone 3 for zuitt web development bootcamp",
     },
   ];
 
