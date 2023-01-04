@@ -30,7 +30,7 @@ function Portfolio() {
       gitlab: "https://gitlab.com/dranyam123/e-commerce-frontend",
       demo: "https://e-commerce-frontend-gilt.vercel.app/",
       description:
-        "Original project and passed as capstone 3 for zuitt web development bootcamp",
+        "Original project and passed as capstone 3 for zuitt web development bootcamp, currently trying to add more features to the app.",
     },
   ];
 
