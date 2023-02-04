@@ -3,7 +3,7 @@ import CTA from "./CTA";
 import "./Header.css";
 import HeaderSocials from "./HeaderSocials";
 import PHONE from "../../assets/phone.jpg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/mycv.pdf";
 
 function Header() {
   return (
