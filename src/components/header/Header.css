@@ -1,3 +1,5 @@
+@import "../../animation.css";
+
 header {
   height: 100vh;
   padding-top: 3rem;
@@ -63,6 +65,7 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
   letter-spacing: 0.2rem;
+  transition: all 250ms ease-out;
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ==================*/
@@ -77,9 +80,35 @@ header {
   header {
     height: 100vh;
   }
-
   .header__socials,
   .scroll__down {
     display: none;
   }
+}
+
+.full_name h1:hover,
+.header__socials a:hover {
+  animation: 250ms linear forwards focus1;
+  color: var(--color-primary-variant);
+}
+
+.header__socials a:active,
+.full_name h1:active {
+  animation: 250ms ease-out forwards bounce1;
+}
+
+.scroll__down:hover {
+  color: var(--color-primary-variant);
+}
+
+.role {
+  display: block;
+  margin: 0 auto;
+  width: 0%;
+  max-width: 150px;
+  overflow: hidden;
+  border-right: 0.2em solid var(--color-primary-variant);
+  white-space: nowrap;
+  animation: 4s steps(100, end) infinite typing,
+    blink-caret 0.5s step-end infinite;
 }
